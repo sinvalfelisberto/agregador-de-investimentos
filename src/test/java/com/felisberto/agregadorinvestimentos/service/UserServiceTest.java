@@ -1,7 +1,6 @@
 package com.felisberto.agregadorinvestimentos.service;
 
 import com.felisberto.agregadorinvestimentos.controller.dto.CreateUserDto;
-import com.felisberto.agregadorinvestimentos.controller.dto.ListUserDto;
 import com.felisberto.agregadorinvestimentos.controller.dto.UpdateUserDto;
 import com.felisberto.agregadorinvestimentos.entity.User;
 import com.felisberto.agregadorinvestimentos.repository.UserRepository;
@@ -16,7 +15,6 @@ import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.time.Instant;
-import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 

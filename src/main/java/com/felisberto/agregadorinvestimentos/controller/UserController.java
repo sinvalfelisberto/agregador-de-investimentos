@@ -1,7 +1,6 @@
 package com.felisberto.agregadorinvestimentos.controller;
 
 import com.felisberto.agregadorinvestimentos.controller.dto.*;
-import com.felisberto.agregadorinvestimentos.entity.Account;
 import com.felisberto.agregadorinvestimentos.entity.User;
 import com.felisberto.agregadorinvestimentos.service.UserService;
 import org.springframework.http.ResponseEntity;

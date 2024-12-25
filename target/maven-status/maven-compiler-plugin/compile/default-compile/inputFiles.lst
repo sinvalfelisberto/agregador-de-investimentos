@@ -6,6 +6,7 @@
 /home/sinvalfelisberto/Desktop/dev/agregadorinvestimentos/src/main/java/com/felisberto/agregadorinvestimentos/controller/dto/CreateStockDto.java
 /home/sinvalfelisberto/Desktop/dev/agregadorinvestimentos/src/main/java/com/felisberto/agregadorinvestimentos/controller/dto/CreateUserDto.java
 /home/sinvalfelisberto/Desktop/dev/agregadorinvestimentos/src/main/java/com/felisberto/agregadorinvestimentos/controller/dto/ListUserDto.java
+/home/sinvalfelisberto/Desktop/dev/agregadorinvestimentos/src/main/java/com/felisberto/agregadorinvestimentos/controller/dto/UpdateStockDto.java
 /home/sinvalfelisberto/Desktop/dev/agregadorinvestimentos/src/main/java/com/felisberto/agregadorinvestimentos/controller/dto/UpdateUserDto.java
 /home/sinvalfelisberto/Desktop/dev/agregadorinvestimentos/src/main/java/com/felisberto/agregadorinvestimentos/entity/Account.java
 /home/sinvalfelisberto/Desktop/dev/agregadorinvestimentos/src/main/java/com/felisberto/agregadorinvestimentos/entity/AccountStock.java

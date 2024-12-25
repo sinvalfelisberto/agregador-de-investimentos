@@ -2,14 +2,11 @@ package com.felisberto.agregadorinvestimentos.controller;
 
 import com.felisberto.agregadorinvestimentos.controller.dto.CreateStockDto;
 import com.felisberto.agregadorinvestimentos.controller.dto.UpdateStockDto;
-import com.felisberto.agregadorinvestimentos.controller.dto.UpdateUserDto;
 import com.felisberto.agregadorinvestimentos.entity.Stock;
 import com.felisberto.agregadorinvestimentos.service.StockService;
-import org.apache.coyote.Response;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.net.URI;
 import java.util.List;
 
 @RestController

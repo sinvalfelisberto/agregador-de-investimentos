@@ -4,16 +4,11 @@ import com.felisberto.agregadorinvestimentos.controller.dto.CreateStockDto;
 import com.felisberto.agregadorinvestimentos.controller.dto.UpdateStockDto;
 import com.felisberto.agregadorinvestimentos.entity.Stock;
 import com.felisberto.agregadorinvestimentos.repository.StockRepository;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
-import java.util.UUID;
 
 @Service
 public class StockService {
