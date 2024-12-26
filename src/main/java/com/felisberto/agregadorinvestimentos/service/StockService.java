@@ -1,7 +1,7 @@
 package com.felisberto.agregadorinvestimentos.service;
 
-import com.felisberto.agregadorinvestimentos.controller.dto.CreateStockDto;
-import com.felisberto.agregadorinvestimentos.controller.dto.UpdateStockDto;
+import com.felisberto.agregadorinvestimentos.controller.dto.stock.CreateStockDto;
+import com.felisberto.agregadorinvestimentos.controller.dto.stock.UpdateStockDto;
 import com.felisberto.agregadorinvestimentos.entity.Stock;
 import com.felisberto.agregadorinvestimentos.repository.StockRepository;
 import org.springframework.http.HttpStatus;

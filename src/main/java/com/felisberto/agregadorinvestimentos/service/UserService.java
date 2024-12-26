@@ -1,12 +1,17 @@
 package com.felisberto.agregadorinvestimentos.service;
 
-import com.felisberto.agregadorinvestimentos.controller.dto.*;
+import com.felisberto.agregadorinvestimentos.controller.dto.user.CreateUserDto;
+import com.felisberto.agregadorinvestimentos.controller.dto.user.ListUserDto;
+import com.felisberto.agregadorinvestimentos.controller.dto.user.UpdateUserDto;
+import com.felisberto.agregadorinvestimentos.controller.dto.account.AccountResponseDto;
+import com.felisberto.agregadorinvestimentos.controller.dto.account.CreateAccountDto;
 import com.felisberto.agregadorinvestimentos.entity.Account;
 import com.felisberto.agregadorinvestimentos.entity.BillingAddress;
 import com.felisberto.agregadorinvestimentos.entity.User;
 import com.felisberto.agregadorinvestimentos.repository.AccountRepository;
 import com.felisberto.agregadorinvestimentos.repository.BillingAddressRepository;
 import com.felisberto.agregadorinvestimentos.repository.UserRepository;
+import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
@@ -16,20 +21,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
+@AllArgsConstructor
 @Service
 public class UserService {
 
     private UserRepository userRepository;
     private AccountRepository accountRepository;
     private BillingAddressRepository billingAddressRepository;
-
-    public UserService(UserRepository userRepository,
-            AccountRepository accountRepository,
-            BillingAddressRepository billingAddressRepository) {
-        this.userRepository = userRepository;
-        this.accountRepository = accountRepository;
-        this.billingAddressRepository = billingAddressRepository;
-    }
 
     public UUID createUser(CreateUserDto createUserDto) {
         var entity = new User(null,

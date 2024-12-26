@@ -1,4 +1,4 @@
-package com.felisberto.agregadorinvestimentos.controller.dto;
+package com.felisberto.agregadorinvestimentos.controller.dto.user;
 
 import com.felisberto.agregadorinvestimentos.entity.Account;
 

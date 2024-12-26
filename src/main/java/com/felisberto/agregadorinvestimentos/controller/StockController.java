@@ -1,23 +1,22 @@
 package com.felisberto.agregadorinvestimentos.controller;
 
-import com.felisberto.agregadorinvestimentos.controller.dto.CreateStockDto;
-import com.felisberto.agregadorinvestimentos.controller.dto.UpdateStockDto;
+import com.felisberto.agregadorinvestimentos.controller.dto.stock.CreateStockDto;
+import com.felisberto.agregadorinvestimentos.controller.dto.stock.UpdateStockDto;
 import com.felisberto.agregadorinvestimentos.entity.Stock;
 import com.felisberto.agregadorinvestimentos.service.StockService;
+import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+
 @RestController
 @RequestMapping("/v1/stocks")
+@AllArgsConstructor
 public class StockController {
 
     private StockService stockService;
-
-    public StockController(StockService stockService) {
-        this.stockService = stockService;
-    }
 
     @PostMapping
     public ResponseEntity<Void> createStock(@RequestBody CreateStockDto createStockDto ) {

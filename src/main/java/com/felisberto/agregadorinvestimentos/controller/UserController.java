@@ -1,23 +1,24 @@
 package com.felisberto.agregadorinvestimentos.controller;
 
-import com.felisberto.agregadorinvestimentos.controller.dto.*;
+import com.felisberto.agregadorinvestimentos.controller.dto.user.CreateUserDto;
+import com.felisberto.agregadorinvestimentos.controller.dto.user.ListUserDto;
+import com.felisberto.agregadorinvestimentos.controller.dto.user.UpdateUserDto;
+import com.felisberto.agregadorinvestimentos.controller.dto.account.AccountResponseDto;
+import com.felisberto.agregadorinvestimentos.controller.dto.account.CreateAccountDto;
 import com.felisberto.agregadorinvestimentos.entity.User;
 import com.felisberto.agregadorinvestimentos.service.UserService;
+import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.net.URI;
 import java.util.List;
 
+@AllArgsConstructor
 @RestController
 @RequestMapping("/v1/users")
 public class UserController {
     private UserService userService;
-
-    public UserController(UserService userService) {
-        this.userService = userService;
-    }
-
 
     @PostMapping
     public ResponseEntity<User> createUser(@RequestBody CreateUserDto createUserDto) {

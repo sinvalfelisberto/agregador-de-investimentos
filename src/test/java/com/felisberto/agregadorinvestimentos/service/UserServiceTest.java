@@ -1,7 +1,7 @@
 package com.felisberto.agregadorinvestimentos.service;
 
-import com.felisberto.agregadorinvestimentos.controller.dto.CreateUserDto;
-import com.felisberto.agregadorinvestimentos.controller.dto.UpdateUserDto;
+import com.felisberto.agregadorinvestimentos.controller.dto.user.CreateUserDto;
+import com.felisberto.agregadorinvestimentos.controller.dto.user.UpdateUserDto;
 import com.felisberto.agregadorinvestimentos.entity.User;
 import com.felisberto.agregadorinvestimentos.repository.UserRepository;
 import org.junit.jupiter.api.DisplayName;
