@@ -1,4 +1,7 @@
 /home/sinvalfelisberto/Desktop/dev/agregadorinvestimentos/src/main/java/com/felisberto/agregadorinvestimentos/AgregadorinvestimentosApplication.java
+/home/sinvalfelisberto/Desktop/dev/agregadorinvestimentos/src/main/java/com/felisberto/agregadorinvestimentos/client/BrapiClient.java
+/home/sinvalfelisberto/Desktop/dev/agregadorinvestimentos/src/main/java/com/felisberto/agregadorinvestimentos/client/dto/BrapiResponseDto.java
+/home/sinvalfelisberto/Desktop/dev/agregadorinvestimentos/src/main/java/com/felisberto/agregadorinvestimentos/client/dto/StockDto.java
 /home/sinvalfelisberto/Desktop/dev/agregadorinvestimentos/src/main/java/com/felisberto/agregadorinvestimentos/controller/AccountController.java
 /home/sinvalfelisberto/Desktop/dev/agregadorinvestimentos/src/main/java/com/felisberto/agregadorinvestimentos/controller/StockController.java
 /home/sinvalfelisberto/Desktop/dev/agregadorinvestimentos/src/main/java/com/felisberto/agregadorinvestimentos/controller/UserController.java
@@ -25,3 +28,4 @@
 /home/sinvalfelisberto/Desktop/dev/agregadorinvestimentos/src/main/java/com/felisberto/agregadorinvestimentos/service/AccountService.java
 /home/sinvalfelisberto/Desktop/dev/agregadorinvestimentos/src/main/java/com/felisberto/agregadorinvestimentos/service/StockService.java
 /home/sinvalfelisberto/Desktop/dev/agregadorinvestimentos/src/main/java/com/felisberto/agregadorinvestimentos/service/UserService.java
+/home/sinvalfelisberto/Desktop/dev/agregadorinvestimentos/src/main/java/com/felisberto/agregadorinvestimentos/token/Token.java

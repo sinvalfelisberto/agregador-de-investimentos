@@ -1,4 +1,6 @@
 package com.felisberto.agregadorinvestimentos.client.dto;
 
-public record StockDto() {
+import java.math.BigDecimal;
+
+public record StockDto(Double regularMarketPrice) {
 }

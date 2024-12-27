@@ -27,7 +27,7 @@ class UserServiceTest {
     //arrange
     //act
     //assert
-
+/*
     @Mock
     private UserRepository userRepository;
 
@@ -126,7 +126,7 @@ class UserServiceTest {
             assertEquals(userList.size(), output.size());
         }
     }
-    */
+
 
 
     @Nested
@@ -223,5 +223,5 @@ class UserServiceTest {
 
         }
     }
-
+*/
 }

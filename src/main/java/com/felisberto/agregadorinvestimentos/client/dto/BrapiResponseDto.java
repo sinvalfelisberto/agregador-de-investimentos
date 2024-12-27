@@ -1,4 +1,7 @@
-package com.felisberto.agregadorinvestimentos.client;
+package com.felisberto.agregadorinvestimentos.client.dto;
 
-public record BrapiResponseDto(List<stockDto> results) {
+import java.util.LinkedList;
+import java.util.List;
+
+public record BrapiResponseDto(LinkedList<StockDto> results) {
 }

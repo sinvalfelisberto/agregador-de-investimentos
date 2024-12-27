@@ -4,6 +4,7 @@ import com.felisberto.agregadorinvestimentos.controller.dto.stock.CreateStockDto
 import com.felisberto.agregadorinvestimentos.controller.dto.stock.UpdateStockDto;
 import com.felisberto.agregadorinvestimentos.entity.Stock;
 import com.felisberto.agregadorinvestimentos.repository.StockRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
@@ -12,11 +13,9 @@ import java.util.List;
 
 @Service
 public class StockService {
-    private StockRepository stockRepository;
 
-    public StockService(StockRepository stockRepository) {
-        this.stockRepository = stockRepository;
-    }
+    @Autowired
+    private StockRepository stockRepository;
 
     public List<Stock> listStocks() {
         return stockRepository.findAll();
