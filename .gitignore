@@ -1,5 +1,5 @@
 # ignore all files int token directory
-/com/**/token/*.*
+/src/**/token/*.*
 
 HELP.md
 target/
