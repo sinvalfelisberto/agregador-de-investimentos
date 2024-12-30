@@ -53,6 +53,7 @@ public class AccountService {
     }
 
     private double getTotal(Integer quantity, String stockId) {
+        //new feature?!
         String TOKEN = new Token().getToken();
         var response = brapiClient.getQuote(TOKEN, stockId);
         var price = response.results().getFirst().regularMarketPrice();
